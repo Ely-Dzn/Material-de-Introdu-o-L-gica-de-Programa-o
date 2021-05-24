@@ -35,14 +35,14 @@ gets(jogador2);
 
 	if(primeiro == 1){
 
-	printf (jogador1);
+	printf ("%s",jogador1);
 	printf (" INICIE A PARTIDA!!\n ");
 
 
 	printf("\n");
 	printf("\n");
 	printf("\n");
-	printf (jogador1);
+	printf ("%s",jogador1);
     printf("\n");
    char tabuleiro [12]    [12] = {
 {'*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*'},
@@ -65,20 +65,20 @@ for (i=0;i<12;i++){
     }
     printf ("\n");
     }
-printf (jogador2);
+printf ("%s",jogador2);
     }
 
 
 	else{
 
-	printf (jogador2);
+	printf ("%s",jogador2);
 	printf (" INICIE A PARTIDA!!\n ");	
 
 
 	printf("\n");
 	printf("\n");
 	printf("\n");
-	printf (jogador2);
+	printf ("%s",jogador2);
     printf("\n");
    char tabuleiro [12]    [12] = {
 {'*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*'},
@@ -101,7 +101,7 @@ for (i=0;i<12;i++){
     }
     printf ("\n");
     }
-	printf (jogador1);
+	printf ("%s",jogador1);
 }
 return 0;
 }
