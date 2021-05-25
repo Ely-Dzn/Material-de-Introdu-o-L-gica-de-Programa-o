@@ -1,0 +1,24 @@
+#include <stdio.h>
+ int main(){
+ 
+ // Definir o numeros de players de cada jogador no ínicio da partida
+ //coloquei 6 só pra exemplificar	
+playersJ1 = 6;
+playersJ2 = 6;
+
+//Toda vez que um jogador perder uma peça, colocar playersJ*-- no fim do laço de repetição 
+
+ 
+if playersJ1 = 0{
+	printf("Parabéns, %s, você é o grande vencendor dessa batalha na Lapônia!!\n", jogador2);
+	print("\o/");
+	
+}
+
+else if playersJ2 = 0{
+	printf("Parabéns, %s, você é o grande vencendor dessa batalha na Lapônia!!\n", jogador1);
+	print("\o/");
+
+
+}
+	
